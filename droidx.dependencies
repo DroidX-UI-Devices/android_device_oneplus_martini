@@ -1,6 +1,32 @@
 [
   {
+    "remote": "DroidX-UI-Devices",
     "repository": "android_device_oneplus_sm8350-common",
-    "target_path": "device/oneplus/sm8350-common"
+    "target_path": "device/oneplus/sm8350-common",
+    "branch": "limedust"
+  },
+  {
+    "remote": "DroidX-UI-Devices",
+    "repository": "proprietary_vendor_oneplus_martini",
+    "target_path": "vendor/oneplus/martini",
+    "branch": "thirteen"
+  },
+
+    "remote": "DroidX-UI-Devices",
+    "repository": "hardware_oneplus",
+    "target_path": "hardware/oplus",
+    "branch": "limedust"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "Mrick343/proprietary_vendor_oplus_camera",
+    "target_path": "vendor/oplus/camera",
+    "branch": "13.0"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "Mrick343/vendor_firmware_martini",
+    "target_path": "vendor/firmware",
+    "branch": "13.1"
   }
 ]
